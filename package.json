@@ -4,7 +4,10 @@
   "description": "Ecommerce template using baas",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm i && cd coffeew && npm i ",
+    "start": "cd coffeew && npm start",
+    "build":"cd coffeew && npm start"
   },
   "repository": {
     "type": "git",
