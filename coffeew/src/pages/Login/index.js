@@ -34,7 +34,7 @@ export function Login() {
       
       if(resData.status===200){   
        
-       // return window.location.assign("/")
+        return window.location.assign("/")
        }
     } catch (e) {
       alert(e.message);
