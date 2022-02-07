@@ -1,0 +1,22 @@
+{
+  "name": "backendless-fun",
+  "version": "1.0.0",
+  "description": "Ecommerce template using baas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delmanat3/Backendless-fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delmanat3/Backendless-fun/issues"
+  },
+  "homepage": "https://github.com/Delmanat3/Backendless-fun#readme",
+  "dependencies": {
+    "backendless": "^6.3.6"
+  }
+}
