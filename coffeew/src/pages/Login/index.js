@@ -29,9 +29,7 @@ export function Login() {
   const handleLogin = async (event) => {
     event.preventDefault();
     try {
-    const resData= await LOGIN_USER(formState);
-      console.log(resData)
-      
+    const resData= await LOGIN_USER(formState);      
       if(resData.status===200){   
        
         return window.location.assign("/")
