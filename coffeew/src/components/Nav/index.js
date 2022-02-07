@@ -12,7 +12,6 @@ import PatternIcon from '@mui/icons-material/Pattern';
 import PersonAddAltSharpIcon from '@mui/icons-material/PersonAddAltSharp';
 import ShoppingCartSharpIcon from '@mui/icons-material/ShoppingCartSharp';
 import { bigLoad } from '../../utils/API/backendless';
-import { Me } from '../../utils/API/backendless';
 
 export  function Nav(props) {
 const [holder, setHolder]=React.useState([])

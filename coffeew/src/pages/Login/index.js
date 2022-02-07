@@ -15,7 +15,6 @@ import {
 } from "@mui/material";
 import { LOGIN_USER } from "../../utils/API/backendless";
 import { Copyright } from "../../components/Copyright";
-import { Me } from "../../utils/API/backendless";
 
 export function Login() {
   const [formState, setFormState] = React.useState({ email: "", password: "" });
@@ -34,7 +33,6 @@ export function Login() {
       console.log(resData)
       
       if(resData.status===200){   
-        const tMe=resData.data["user-token"]
        
        // return window.location.assign("/")
        }
